@@ -2,46 +2,40 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Welcome to Code Canvas
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Code Canvas is a platform for artists and creative coders to create and publish long-form generative art on the Solana blockchain. With our platform, you can leverage the power of blockchain technology to store your code and image, ensuring that your artwork is secure and accessible to collectors worldwide.
 
-## Getting Started
+Browse **the platform** at **[codecanvas.art](https://codecanvas.art?utm_source=code_canvas_documentation)**.
 
-Get started by **creating a new site**.
+## What is Long-Form Generative Art?
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Long-form generative art refers to a type of art that is created using an algorithmic or computational approach. In long-form generative art, the artist often sets up a set of rules or parameters that guide the generative process, but the exact outcome of the artwork is not predetermined. This allows for endless variations and unique creations that can be appreciated by collectors worldwide.
 
-### What you'll need
+## Who is this Targeted Towards?
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Code Canvas is targeted towards 🎨 Artists and `Creative Coders` who are interested in exploring the possibilities of long-form generative art.
 
-## Generate a new site
+You don't need to have any prior experience with blockchain technology or programming, but a basic understanding of coding concepts can be helpful.
 
-Generate a new Docusaurus site using the **classic template**.
+## What Skillsets are Needed?
 
-The classic template will automatically be added to your project after you run the command:
+To create generative art on Code Canvas, you will need to have **some experience** with programming. 
+You don't need to be an expert coder, but a basic understanding of programming concepts and syntax is helpful. 
+You can use a variety of programming languages to create your generative art, including JavaScript, Python, and more.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+We hope that this welcome page provides you with a basic understanding of Code Canvas and long-form generative art. 
+If you have any questions or concerns, please feel free to contact us at apply@codecanvas.art.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Learn More
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+If you're interested in learning more about Code Canvas and long-form generative art, we have a wealth of resources available for you. Here are a few places where you can find more information:
 
-## Start your site
+- Our blog at **[blog.codecanvas.art](https://blog.codecanvas.art)** features educational materials, artist interviews, and updates about our platform. Check it out for inspiration and helpful tips on creating generative art on Code Canvas.
 
-Run the development server:
+- Our Discord community at  **[discord.gg/codecanvas](https://discord.gg/codecanvas)** is a vibrant and active community of artists, collectors, and enthusiasts who share a passion for long-form generative art. 
+Join us to **connect with like-minded individuals**, get feedback on your artwork, and stay up-to-date on the latest news and developments from Code Canvas.
 
-```bash
-cd my-website
-npm run start
-```
+- Follow us on Twitter at  **[@codecanvas_art](https://twitter.com/codecanvas_art)** for regular updates, artist highlights, and announcements about upcoming drops on our platform.
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+We believe that community and education are essential components of our platform, and we're committed to providing a supportive and engaging environment for artists and creative coders to explore the possibilities of long-form generative art. We hope you'll join us on this exciting journey!
