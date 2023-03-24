@@ -4,42 +4,43 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Introducing Code Canvas',
+    image: 'img/1.png',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+          Code Canvas is a platform that enables artists to create and publish long-form generative art on the Solana blockchain. With Code Canvas, artists can create unique and dynamic generative art pieces that are accessible and collectible by enthusiasts worldwide.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Incredible User Experience',
+    image: 'img/2.png',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+          Code Canvas uses state-of-the-art technology to ensure the fastest rendering engine for a seamless user
+          experience. Our rendering engine is optimized to render generative art pieces quickly and efficiently,
+          using graphics processing units (GPUs) and other hardware accelerators.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Triple Storage',
+    image: 'img/3.png',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+          Code Canvas stores your code in three different places for security and accessibility.
+          We store your code on the Solana blockchain, IPFS, and Arweave, ensuring that it is always secure and
+          accessible to you and your collectors.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({image, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={image} className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
