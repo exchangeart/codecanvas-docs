@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcodecanvas_docs=self.webpackChunkcodecanvas_docs||[]).push([[4203],{2215:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/codecanvas-docs/blog/tags/facebook","allTagsPath":"/codecanvas-docs/blog/tags","count":1}')}}]);
