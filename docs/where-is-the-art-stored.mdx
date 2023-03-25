@@ -1,0 +1,63 @@
+---
+sidebar_position: 4
+---
+
+# Where is the Art Stored?
+
+Welcome to this tutorial on where the art is stored. Let's take a closer look at the first ever artwork created on Code Canvas, [Fract #1 by Leander Herzog](https://codecanvas.art/single/AXVm8TLnhcXDApP5z2YsgCttspYmkY13TXKPVZPTgZuC).
+
+When an artist creates generative art on Code Canvas, the code that generates the artwork is stored in three different places: on the Solana blockchain, on IPFS, and on Arweave.
+
+
+![Fract #1](https://images-cdn.codecanvas.art/G3zbpcPXm3h80wQGxmsKnx-0SHtEfD12os0-TOG6ceo?quality=100&auto=avifwebp&ext=fastly)
+
+To access the artwork, click on the link above and look for the **Metadata** hyperlink on the page. This will open up the Solana account where the artwork is stored.
+
+
+## Solana
+
+The code that generates the artwork is stored in a Solana account, identified by the address `53Veg72veKEn6zQFDbqBKZmErBQG3UFNjZHEAUDuENYW`.
+
+:::info Accounts
+Learn more about the concepts behind [Solana accounts](https://docs.solana.com/developing/programming-model/accounts).
+:::
+
+You can use the following code to access the Solana account:
+
+```javascript
+import { Connection, PublicKey } from "@solana/web3.js";
+import fs from "fs";
+
+(async () => {
+    const rpc = "https://...";
+    const connection = new Connection(rpc, "confirmed");
+    const accountInfo = await connection.getAccountInfo(new PublicKey("53Veg72veKEn6zQFDbqBKZmErBQG3UFNjZHEAUDuENYW"));
+    fs.writeFileSync('./code.zip', accountInfo.data);
+})();
+
+```
+
+
+## IPFS
+
+IPFS is a decentralized storage system that is used to store the code.
+
+The code is stored at the following URI: [https://codecanvas.infura-ipfs.io/ipfs/QmWdRHWqdywuYtyfAqU7hAmjeDhaVLwFDwGo7zWcJKeWr2/fract/index.html](https://codecanvas.infura-ipfs.io/ipfs/QmWdRHWqdywuYtyfAqU7hAmjeDhaVLwFDwGo7zWcJKeWr2/fract/index.html).
+
+:::info IPFS CIDs
+The link above uses Code Canvas's gateway - learm more on [how IPFS works](https://docs.ipfs.tech/concepts/how-ipfs-works/).
+:::
+
+
+## Arweave
+
+**[Arweave](https://www.arweave.org/)** is a Decentralized Storage Network that is used to store the [Artwork's metadata](https://arweave.net/tRd4ZEtqw08e9h1I-YkxVHrKpJdnt8-m88LWXlAa5Jw), the [image output](https://arweave.net/mu_Q_4e9rEK9RUjAZU9TUIrpLkvpxEKZJ7ggiqsiIdU) and the [source code](https://arweave.net/xKk_p0oplDpLrQjEkqh6AkV-JYSHG_rMXRlF57OLCiw).
+
+# Summary
+The code that generates the artworks is stored on three separate systems. This ensures that the artwork is secure and accessible to collectors worldwide.
+
+
+
+
+
+
