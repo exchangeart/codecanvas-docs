@@ -62,6 +62,24 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
+      metadata: [
+          {name: 'og:type', content: 'website'},
+          {name: 'og:url', content: 'https://codecanvas.art'},
+          {name: 'og:title', content: 'Code Canvas Docs'},
+          {name: 'og:site_name', content: 'Code Canvas | Long Form Generative Art | Generative Art Marketplace'},
+          {name: 'og:image', content: 'https://cdn.codecanvas.art/static/meta-logo.png'},
+          {name: 'twitter:card', content: 'summary_large_image'},
+          {name: 'twitter:title', content: 'Code Canvas Docs'},
+          {name: 'twitter:description', content: 'Code Canvas is the first long-form generative art marketplace on Solana. Mint, buy, and sell amazing generative artworks using Code Canvas today.'},
+          {name: 'twitter:image', content: 'https://cdn.codecanvas.art/static/meta-logo.png'},
+          {name: 'twitter:image:alt', content: 'CodeCanvas.art logo'},
+          {name: 'twitter:site', content: '@CodeCanvas_Art'},
+          {name: 'description', content: 'Code Canvas is the first long-form generative art marketplace on Solana. Mint, buy, and sell amazing generative artworks using Code Canvas today.'},
+          {name: 'title', content: 'Code'},
+          {name: 'title', content: 'Code'},
+          {name: 'title', content: 'Code'},
+          {name: 'title', content: 'Code'},
+      ],
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Code Canvas Docs',
