@@ -31,7 +31,8 @@ export default function Home() {
   return (
     <Layout
       title={`Get Started ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Documentation for Code Canvas, a platform for generative art on the Solana blockchain.
+      Learn how to structure your project, receive a seed parameter, capture your artwork, and make it responsive.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

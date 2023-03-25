@@ -63,24 +63,68 @@ const config = {
     ({
       // Replace with your project's social card
       metadata: [
-          {name: 'og:type', content: 'website'},
-          {name: 'og:url', content: 'https://codecanvas.art'},
-          {name: 'og:title', content: 'Code Canvas Docs'},
-          {name: 'og:site_name', content: 'Code Canvas | Long Form Generative Art | Generative Art Marketplace'},
-          {name: 'og:image', content: 'https://cdn.codecanvas.art/static/meta-logo.png'},
-          {name: 'twitter:card', content: 'summary_large_image'},
-          {name: 'twitter:title', content: 'Code Canvas Docs'},
-          {name: 'twitter:description', content: 'Code Canvas is the first long-form generative art marketplace on Solana. Mint, buy, and sell amazing generative artworks using Code Canvas today.'},
-          {name: 'twitter:image', content: 'https://cdn.codecanvas.art/static/meta-logo.png'},
-          {name: 'twitter:image:alt', content: 'CodeCanvas.art logo'},
-          {name: 'twitter:site', content: '@CodeCanvas_Art'},
-          {name: 'description', content: 'Code Canvas is the first long-form generative art marketplace on Solana. Mint, buy, and sell amazing generative artworks using Code Canvas today.'},
-          {name: 'title', content: 'Code'},
-          {name: 'title', content: 'Code'},
-          {name: 'title', content: 'Code'},
-          {name: 'title', content: 'Code'},
+        {
+          name: "og:type",
+          content: "website",
+        },
+        {
+          name: "og:url",
+          content: "https://docs.codecanvas.art",
+        },
+        {
+          name: "og:title",
+          content: "Code Canvas Docs | Generative Art on Solana",
+        },
+        {
+          name: "og:site_name",
+          content: "Code Canvas Docs | Generative Art on Solana",
+        },
+        {
+          name: "og:description",
+          content:
+              "Documentation for Code Canvas, the first long-form generative art marketplace on Solana. Learn how to structure your project, receive a seed parameter, capture your artwork, and make it responsive.",
+        },
+        {
+          name: "og:image",
+          content: "https://cdn.codecanvas.art/static/meta-logo.png",
+        },
+        {
+          name: "twitter:card",
+          content: "summary_large_image",
+        },
+        {
+          name: "twitter:title",
+          content: "Code Canvas Docs | Generative Art on Solana",
+        },
+        {
+          name: "twitter:description",
+          content:
+              "Documentation for Code Canvas, the first long-form generative art marketplace on Solana. Learn how to structure your project, receive a seed parameter, capture your artwork, and make it responsive.",
+        },
+        {
+          name: "twitter:image",
+          content: "https://cdn.codecanvas.art/static/meta-logo.png",
+        },
+        {
+          name: "twitter:image:alt",
+          content: "CodeCanvas.art logo",
+        },
+        {
+          name: "twitter:site",
+          content: "@CodeCanvas_Art",
+        },
+        {
+          name: "description",
+          content:
+              "Documentation for Code Canvas, the first long-form generative art marketplace on Solana. Learn how to structure your project, receive a seed parameter, capture your artwork, and make it responsive.",
+        },
+        {
+          name: "title",
+          content: "Code Canvas Docs | Generative Art on Solana",
+        },
       ],
-      image: 'img/docusaurus-social-card.jpg',
+
+      image: 'img/codecanvas-social.png',
       navbar: {
         title: 'Code Canvas Docs',
         logo: {
